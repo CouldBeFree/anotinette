@@ -1,0 +1,88 @@
+//  Подключения шрифтов
+
+// font-family: 'DancingScript';
+@font-face {
+  font-family: 'DancingScript';
+  font-weight: normal;
+  src:  local('DancingScript'), local('DancingScript');
+  src:  url('../fonts/DancingScriptOT/DancingScriptOT.eot');
+  src:  url('../fonts/DancingScriptOT/DancingScriptOT.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/DancingScriptOT/DancingScriptOT.woff') format('woff'),
+  url('../fonts/DancingScriptOT/DancingScriptOT.ttf') format('truetype'),
+  url('../fonts/DancingScriptOT/DancingScriptOT.svg#Roboto-Regular') format('svg');
+}
+
+// font-family: 'Icomoon';
+@font-face {
+  font-family: 'Icomoon';
+  font-weight: normal;
+  src:  local('Icomoon'), local('Icomoon');
+  src:  url('../fonts/Icomoon/icomoon.svg');
+  src:  url('../fonts/Icomoon/icomoon.svg?#iefix') format('embedded-opentype'),
+  url('../fonts/Icomoon/icomoon.svg') format('truetype'),
+  url('../fonts/Icomoon/icomoon.svg#Roboto-Regular') format('svg');
+}
+
+// font-family: 'Muli';
+// font-weight: 400;
+@font-face {
+  font-family: 'Muli';
+  font-weight: 400;
+  src:  local('Muli'), local('Muli');
+  src:  url('../fonts/Muli/Muli.eot');
+  src:  url('../fonts/Muli/Muli.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Muli/Muli.woff') format('woff'),
+  url('../fonts/Muli/Muli.ttf') format('truetype'),
+  url('../fonts/Muli/Muli.svg#Roboto-Bold') format('svg');
+}
+
+// font-family: 'Muli';
+// font-weight: 700;
+@font-face {
+  font-family: 'Muli';
+  font-weight: 700;
+  src:  local('Muli'), local('Muli-Bold');
+  src:  url('../fonts/Muli-Bold/Muli-Bold.svg');
+  src:  url('../fonts/Muli-Bold/Muli-Bold.svg?#iefix') format('embedded-opentype'),
+  url('../fonts/Muli-Bold/Muli-Bold.svg') format('truetype'),
+  url('../fonts/Muli-Bold/Muli-Bold.svg#Roboto-Bold') format('svg');
+}
+
+// font-family: 'Ovo';
+// font-weight: 400;
+@font-face {
+  font-family: 'Ovo';
+  font-weight: 400;
+  src:  local('Ovo'), local('Ovo');
+  src:  url('../fonts/Ovo/Ovo.eot');
+  src:  url('../fonts/Ovo/Ovo.svg?#iefix') format('embedded-opentype'),
+  url('../fonts/Ovo/Ovo.ttf') format('truetype'),
+  url('../fonts/Ovo/Ovo.woff') format('woff'),
+  url('../fonts/Ovo/Ovo.svg#Roboto-Bold') format('svg');
+}
+
+// Заголовки
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-family;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
